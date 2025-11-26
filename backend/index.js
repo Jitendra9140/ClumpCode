@@ -11,13 +11,12 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://clumpcode.netlify.app"],
+    origin: ["https://clumpcode.onrender.com", "https://clumpcode.netlify.app"],
     credentials: true,
   })
 );
 
-// Allow preflight requests
-app.options("*", cors());
+
 
 
 app.use(express.json());
