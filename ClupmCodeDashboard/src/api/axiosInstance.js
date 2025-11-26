@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://clumpcode-backend.onrender.com", // backend base URL
+  baseURL: "https://clumpcode.onrender.com", // backend base URL
 });
 
 // automatically attach token if available
