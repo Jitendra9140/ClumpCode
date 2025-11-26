@@ -1,0 +1,9 @@
+@import "tailwindcss";
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.sidebar {
+  scrollbar-width: none; /* Firefox */
+}
