@@ -11,7 +11,10 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["https://clumpcode.onrender.com"],
+    origin: [
+      "https://clumpcode.onrender.com",
+      "https://clumpcode.netlify.app'",
+    ],
     credentials: true,
   })
 );
